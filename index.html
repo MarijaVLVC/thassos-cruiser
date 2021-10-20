@@ -1,0 +1,488 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Thassos Cruiser</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Favico -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<!-- Meta -->
+<meta name="description" content="Thassos Cruise SET SAIL FOR PARADISE" />
+<meta name="keywords" content="Thassos, Limenas, Potos, Cruiser, boat, port, island beaches, Giola, Archagelos Monastery, Aliki, Roman theatre, Paradise beach, Saint Anna beach, Rosogremos beach, Old mermer mine, Golden Beach, Skala Potamia, Potamia" />
+<meta name="author" content="Marija Vulovic"/>
+<meta name="robots" content="index, follow">
+<!-- CSS -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<!-- FontAwesome SDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav id="nav">
+   <div id="nav-body">
+      <div class="top-bar">
+         <div id="logo"> <a href="#calculate" class="anchor-animate">Thassos Cruise</a> </div>
+         <div class="menu"> <span href="#" id="menuBtn"></span> </div>
+      </div>
+      <div class="nav">
+         <ul id="nav-links">
+            <li><a href="#calculate" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li> <a href="#cruises">Cruises</a>
+               <ul>
+                  <li><a href="#limenasBtn">Limenos</a></li>
+                  <li><a href="#potosBtn">Potos</a></li>
+               </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#faq">FAQ</a></li>
+         </ul>
+      </div>
+   </div>
+</nav>
+<!-- // End of Navigation -->
+
+<header id="calculate">
+   <div class="calculate-body module" >
+      <div class="centered-heading">
+         <h1>SET SAIL FOR PARADISE</h1>
+      </div>
+      <div id="calculatePrice">
+         <form id="calcPrice" name="calcPrice" action="#" method="GET">
+            
+            <!-- Kids -->
+            <div class="input-group"> <span>Select Cruise Destionation</span> <i class="fa fa-map-marker"></i>
+               <select id="cruizDest">
+                  <option value="0">Select Cruise</option>
+                  <option value="1">Thassos Limenas</option>
+                  <option value="2">Thassos Potos</option>
+               </select>
+               <div id="cruiz-error"></div>
+            </div>
+            <!-- Adults -->
+            <div class="input-group"> <span>Enter number of adults</span> <i class="fa fa-users"></i>
+               <input id="adults" type="text" class="form-control" name="adults" placeholder="Adults(12 years+)">
+               <div id="adults-error"></div>
+            </div>
+            
+            <!-- Kids -->
+            <div class="input-group"> <span>Enter number of Children</span> <i class="fa fa-child"></i>
+               <input id="kids" type="text" class="form-control" name="kids" placeholder="Children(3 - 12 years)">
+               <div id="kids-error"></div>
+            </div>
+            
+            <!-- Checkbox -->
+            <div class="form-check">
+               <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="lunch" value="Included lunch">
+                  Lunch </label>
+            </div>
+            
+            <!-- Button -->
+            <div class="button-group">
+               <button type="button" class="mainBtn" id="calcBtn">Calculate</button>
+            </div>
+            <div class="clear"></div>
+         </form>
+         <div id="resultCalcForm" class="module"> </div>
+      </div>
+   </div>
+</header>
+<div id="about">
+   <div class="about-body module">
+      <div class="centered-heading">
+         <h2>Our Project</h2>
+      </div>
+      <!-- Left side -->
+      <div class="col-half">
+         <div class="text-desc">
+            <p>Our sailing boats Atlantis and Nikoleta have a maximum capacity of 8 to10 persons, so don’t hesitate to share this once of lifetime experience with your loved ones, friends or extended family. We offer two cruises, both stopping at a selection of some of the best beaches on the island, with a delicious barbeque included in the price.</p>
+         </div>
+      </div>
+      <!-- Right side -->
+      <div class="col-half">
+         <div class="text-desc">
+            <p> The boat has a full range of facilities including a bar, two toilets, interior seating, upper sun decks and a sheltered seated area at the rear of the boat. The Eros II operates from late May/early June until the end of September.</p>
+         </div>
+      </div>
+      <div class="clear"></div>
+   </div>
+</div>
+
+<!-- Galerija -->
+<div id="gallery">
+   <div class="galleryBody">
+      <div id="imageHolder" class="module"></div>
+   </div>
+</div>
+<!-- // End of Galerija --> 
+
+<!-- CRUISES -->
+<div id="cruises">
+      <div class="cruises-body module">
+         <div class="centered-heading">
+            <h2>Check out our Cruise Itineraries</h2>
+         </div>
+         
+         <!-- Cruise Items -->
+         <div id="cruiseItems">
+            <div class="col-50" id="limenas">
+               <div class="cruise-grid" style="background-image:url(images/limenosCru.jpg );">
+                  <div class="cruiseDesc">
+                     <h4>Thassos Limenas</h4>
+                     <span><i class="undefined"></i>Port Limenos</span>
+                     <span><i class="icon-clock"></i>09:00 AM - 16:00 PM Local Time</span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-50" id="potos">
+               <div class="cruise-grid" style="background-image:url(images/potosCru.jpg );">
+                  <div class="cruiseDesc"><h4>Thassos Potos</h4>
+                     <span><i class="undefined"></i>Port Potos</span>
+                     <span><i class="icon-clock"></i>10:00 AM - 18:00 PM Local Time</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="items-tabs"> 
+            <a href="#limenasTabCont" id="limenasBtn">See more about Limenas</a> 
+            <a href="#potosTabCont" id="potosBtn">See more about Potos</a> 
+         </div>
+         <div class="clear"></div>
+         <div id="cruiseItemsTabs" class="module">
+            <div class="hiddenDiv module" id="limenasTabCont" style="display: none;">
+               <div class="cruisHead">
+                  <h4>Thassos Limenas</h4>
+               </div>
+               <div class="cruisBody vertical-align">
+                  <div class="cruise-desc">
+                     <p> You should bring with you camera, suntan lotion, hat, sunglasses and swimming items. The boat does not go all the way around the island. Beaches we will visit: Old mermer mine,Golden Beach, Skala Potamia, The village of Potamia </p>
+                  </div>
+                  <div class="col-half">
+                        <div class="map-body">
+                     <div id="mapPath-lim" class="mapIMG">
+                       <object>
+                           <embed src="images/limenosPath.svg" width="auto" height="auto">
+                        </object>
+                     </div>
+                     <div class="descLinks">
+                        <div class="descName"></div>
+                        <a href="#" mytitle="Marbel Beach" id="decsMarbel"></a>
+                        <a href="#" mytitle="Old Mermer Mine" id="descMine"></a>
+                        <a href="#" mytitle="Golden Beach" id="descGolden"></a>
+                        <a href="#" mytitle="Skala Potamia" id="descSkala"></a>
+                        <a href="#" mytitle="The village of Potamia" id="descVillage"></a>
+                     </div>
+                  </div>
+                  </div>
+                  <div class="col-half">
+                     <table>
+                        <thead>
+                           <tr>
+                              <th>Beach Name</th>
+                              <th>Status</th>
+                              <th>Activities</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>Marble Beach</td>
+                              <td>Moving on</td>
+                              <td>Looking</td>
+                           </tr>
+                           <tr>
+                              <td>Old mermer mine</td>
+                              <td>Moving on</td>
+                              <td>Looking</td>
+                           </tr>
+                           <tr>
+                              <td>Golden Beach - 3km of fine sand, gently shelving clear waters</td>
+                              <td>Staying</td>
+                              <td>swimming, fishing</td>
+                           </tr>
+                           <tr>
+                              <td>Skala Potamia</td>
+                              <td>Staying for lunch</td>
+                              <td>swimming</td>
+                           </tr>
+                           <tr>
+                              <td>The village of Potamia in highest and most majestic mountain on the island of Thassos</td>
+                              <td>Staying for walk</td>
+                              <td>Walking</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="hiddenDiv module" id="potosTabCont" style="display: none;">
+               <div class="cruisHead">
+                  <h4>Thassos Potos</h4></div>
+                  <div class="cruisBody vertical-align">
+                     <div class="cruise-desc">
+                        <p> You should bring with you camera, suntan lotion, hat, sunglasses and swimming items. The boat does not go all the way around the island. Beaches we will visit: Giola, Archagelos Monastery, Aliki, Paradise beach, Saint Anna beach, Rosogremos beach </p>
+                     </div>
+                     <div class="col-half">
+                        <div class="map-body">
+                        <div id="mapPath-pos" class="mapIMG">
+                           <object>
+                               <embed src="images/potosPath.svg" width="100%" height="100%">
+                            </object>
+                         </div>
+                        <div class="descLinks">
+                              <div class="descName"></div>
+                              <a href="#" mytitle="Giola" id="descGiola"></a>
+                              <a href="#" mytitle="Archagelos Monastery" id="descMona"></a>
+                              <a href="#" mytitle="Aliki" id="descAliki"></a>
+                              <a href="#" mytitle="Roman theatre" id="descRome"></a>
+                              <a href="#" mytitle="Deep green forest" id="descDeep"></a>
+                              <a href="#" mytitle="Saint Anna beach" id="descSain"></a>
+                           </div>
+                        </div>
+                     </div>  
+                     <div class="col-half">
+                        <table>
+                           <thead>
+                              <tr>
+                                 <th>Beach Name</th>
+                                 <th>Status</th>
+                                 <th>Activities</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Giola, a natural shaped pool formation among the rocks</td>
+                                 <td>Pasing by</td>
+                                 <td>Looking at</td>
+                              </tr>
+                              <tr>
+                                 <td>Archagelos Monastery secluded beach, which was once the monastery’s old port</td>
+                                 <td>Staying</td>
+                                 <td>Snacks</td>
+                              </tr>
+                              <tr>
+                                 <td>Aliki where Phoenicians used to quarry and load Thassian marble on their ships millennia ago.</td>
+                                 <td>Staying</td>
+                                 <td>Swim in crystal clear water</td>
+                              </tr>
+                              <tr>
+                                 <td>Roman theatre dating from 197 B.C</td>
+                                 <td>Staying for lunch</td>
+                                 <td>fishing</td>
+                              </tr>
+                              <tr>
+                                 <td>Deep green forest covered mountains, towards Paradise beach</td>
+                                 <td>Staying for walk</td>
+                                 <td>Walking</td>
+                              </tr>
+                              <tr>
+                                 <td>Saint Anna beach or in Rosogremos beach</td>
+                                 <td>Staying for dessert</td>
+                                 <td>swimming</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         <div class="clear"></div>
+         <!-- Cruise Items Description -->
+         <div class="cruiseTabCon" id="cruiseTabCon"></div>
+      </div>
+   </div>
+<!-- // End of CRUISES --> 
+
+<!-- Faded background -->
+<div class="cruiseTabCon-bg"></div>
+<!-- // End of Faded background -->
+
+<div id="contact">
+   <div class="contact-body module">
+      <div class="col-40 module">
+         <div class="contactInfo">
+            <h3>Contact Information</h3>
+            <ul>
+               <li class="address"><i class="fa fa-map-marker"></i> The Old Harbour in Limenas.</li>
+               <li class="phone"><i class="fa fa-phone"></i>+30 25933 00515</li>
+               <li class="email"><i class="fa fa-envelope"></i>office@thassoscruiser.com</li>
+               <li class="url"><i class="fa fa-clock"></i>09:00 – 13:00 and 18:00 – 22:00</li>
+            </ul>
+         </div>
+      </div>
+      <div class="col-60 contact-form module">
+         <h3>Get In Touch</h3>
+         <form id="contactForm" name="contactForm" action="#" method="POST">
+            <div class="form-group">
+               <div class="col-half"> 
+                  <input type="text" id="fname" class="form-control" placeholder="Your firstname">
+                  <div id="fnameError"></div>
+               </div>
+               <div class="col-half"> 
+                  <input type="text" id="lname" class="form-control" placeholder="Your lastname">
+                  <div id="lnameError"></div>
+               </div>
+            </div>
+            <div class="form-group">
+               <div class="col-100"> 
+                  <input type="text" id="email" class="form-control" placeholder="Your email address">
+                  <div id="emailError"></div>
+               </div>
+            </div>
+            <div class="form-group">
+               <div class="col-100"> 
+                  <input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+                  <div id="msgsubError"></div>
+               </div>
+            </div>
+            <div class="form-group">
+               <div class="col-100"> 
+                  <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+                  <div id="msgError"></div>
+               </div>
+            </div>
+            <div class="form-group">
+               <div class="col-100">
+                  <input type="button" value="Send Message" id="contactBtn" />
+               </div>
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
+</div>
+
+<!-- FAQ-u -->
+<div id="faq">
+   <div class="faq-body module">
+      <div class="centered-heading">
+         <h2>FAQ</h2>
+      </div>
+      <ul class="list-group faqList" id="accordion">
+         <li class="list-group-item"> <a class="faqQuest">What is included in price?</a>
+            <ul style="display: none;">
+               <li> All fuel and taxes, drinks (coffee, wine, juice and soft drinks) are included in the price.</li>
+            </ul>
+         </li>
+         <li class="list-group-item"><a class="faqQuest">Is diving included in cruise too?</a>
+            <ul style="display: none;">
+               <li> No, due to Health and Safety precautions we do not provide snorkeling equipment. Everyone is welcome to bring their own, if that is your interest </li>
+            </ul>
+         </li>
+         <li class="list-group-item"><a class="faqQuest">What if we reserve our cruise but it turns out that it's going to be bad weather. What happens then?</a>
+            <ul style="display: none;">
+               <li> In the event of your trip being cancelled due to bad weather conditions, we will either re-book your trip on the next available sailing or offer you a full refund. </li>
+            </ul>
+         </li>
+         <li class="list-group-item"><a class="faqQuest">Do you work all year around?</a>
+            <ul style="display: none;">
+               <li> We operate from late May/early June until the end of September. </li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+</div>
+<!-- // End of FAQ-u -->
+
+<div id="aboutDesigner">
+
+   <div class="aboutOverlay"></div>
+   <div id="AboutDesigner-wrap">
+   <div id="AboutDesigner-head">
+      <a href="#" id="closeModal-btn"></a> 
+   </div>
+   <div id="AboutDesigner-body">
+      <div class="col-half">
+         <img src="images/designer.jpg" alt="Picture of Designer" />
+      </div>
+      <div class="col-half">
+         <hgroup>
+         <h3>Marija Vulovic 335/17</h3>
+         <h4>Designer of the site</h4>
+         </hgroup>
+
+         <div class="designerDesc">
+            <p>Student of second year on ICT collage</p>
+            <p>This site is a project for Web programming 1, subject were learned skills from vanilla JavaScript and jQuery are presented.</p>
+            <div class="techUsed">
+               <ul>
+                  <li>Programming Language:
+                     <ul>
+                           <li>JavaScript</li>
+                     </ul> 
+                  </li>
+                  <li>Libraries:
+                     <ul>
+                           <li>jQuery</li>
+                           <li>VanillaJS</li>
+                     </ul>
+                  </li> 
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+
+
+<!-- //End of AboutDesigner -->
+
+<footer id="footer">
+<div class="overlay"></div>
+<div class="footer-body module">
+   <div class="col-40"> <img src="images/logo.png" alt="Thassos Cruise"/>
+      <p>Daily Cruises: Escape with us!
+         Enjoy the crystal clear waters in the emerald sea of Thassos. </p>
+   </div>
+   <div class="col-30">
+      <ul>
+         <li><a href="#calculate">Calculate</a></li>
+         <li><a href="#about">About us</a></li>
+         <li><a href="#cruise">Cruises</a></li>
+         <li><a href="#faq">FAQ</a></li>
+         <li><a href="#contact">Contact</a></li>
+      </ul>
+   </div>
+   <div class="col-30">
+      <ul>
+         <li><a href="xml/sitemap.xml">Sitemap</a></li>
+         <li><a href="pdf/Dokumentacija.pdf">Documentation</a></li>
+      </ul>
+   </div>
+   <div class="col-30">
+      <ul id="socialLinks">
+         <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+         <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+         <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>
+         <li><a href="https://www.whatsapp.com/?l=sr" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+      </ul>
+   </div>
+</div>
+<div class="clear"></div>
+<div class="copyright">
+   <p> <small class="block">&copy; 2018 Thassos Cruiser. All Rights Reserved.</small> <small class="block">Designed by <a href="#" id="designerModal">Marija</a></small> </p>
+</div>
+<div id="scrollToTop">
+<i class="fa fa-anchor"></i>
+<div>
+</footer>
+
+<!-- jQuery --> 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script> 
+<!-- VanillaJS -->
+<link rel="stylesheet" href="vanillabox/theme/bitter/vanillabox.css">
+<script type="text/javascript" src="vanillabox/jquery.vanillabox-0.1.7.min.js"></script> 
+<script type="text/javascript" src="vanillabox/jquery.vanillabox.js"></script> 
+<!-- Moja Scripta --> 
+<script type="text/javascript" src="js/mojJS.js"></script>
+</body>
+</html>
