@@ -1,0 +1,827 @@
+@media (max-width: 1300px)
+{
+	/* Desc Links */
+	.map-body {
+		width: 400px;
+    	height: 357px;
+	}
+	.descLinks {
+		position: absolute;
+		top: 0px;
+		left:-16px;
+		width: 400px;
+    	height: 357px;
+	}
+	#mapPath-lim, #mapPath-pos  {
+		position: absolute;
+		top: 20px;
+    	right: 0px;
+		width: 400px;
+   		height: 357px;
+	}
+
+/* Limenas */
+#decsMarbel {
+	top: 88px;
+    right: 94px;
+}
+#descMine {
+	top: 108px;
+    right: 80px;
+}
+#descGolden {
+	top: 136px;
+    right: 70px;
+}
+#descSkala {
+	top: 148px;
+    right: 98px;
+}
+#descVillage {
+	top: 162px;
+    right: 70px;
+}
+/* Potos */
+#descGiola {
+	bottom: 10px;
+    right: 136px;
+}
+#descMona {
+	bottom: 24px;
+    right: 114px;
+}
+#descAliki {
+	bottom: 34px;
+    right: 80px;
+}
+#descRome {
+	bottom: 45px;
+    right: 100px;
+}
+#descDeep {
+	bottom: 78px;
+    right: 58px;
+}
+#descSain {
+	bottom: 16px;
+    right: 198px;
+}
+
+}
+
+@media (max-width: 1200px) {
+.input-group {
+	width: 30%;
+}
+.form-check {
+	width: 30%;
+	padding-top: 14px;
+}
+.button-group {
+	padding-top: 0px;
+}
+.button-group {
+	width: 60%;
+	float: right;
+}
+#limenasBtn {
+	left: 12%;
+}
+#potosBtn {
+	right: 13%;
+}
+}
+
+
+
+@media (max-width: 1000px) {
+#nav-body {
+	width: 100%;
+	margin: 0;
+}
+#logo a {
+	left: 10px;
+}
+.footer-body .col-40 {
+	width: 100%;
+}
+.footer-body .col-30 {
+	width: 40%;
+	padding: 2% 5%;
+}
+	/* Desc Links */
+	.map-body {
+		width: 300px;
+		height: 268px;
+	}
+	.descLinks {
+		position: absolute;
+		top: 0px;
+		left:0px;
+		width: 290px;
+    	height: 278px;
+	}
+	#mapPath-lim, #mapPath-pos  {
+		position: absolute;
+		top: 20px;
+    	right: 0px;
+		width: 300px;
+		height: 268px;
+	}
+
+	
+	.descLinks a {
+		background-image: url(../images/mapMarker-small.png);
+		background-size: cover;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		width: 24px;
+		height: 24px;
+		padding: 12px;
+	}
+	.descLinks a:hover {
+		background-image: url(../images/mapMarkerSmall-hover.png);
+		width: 32px;
+		height: 32px;
+		padding: 16px;
+		margin-top: -4px;
+		margin-right: -4px;
+	}
+	
+	/* Limenas */
+#decsMarbel {
+	top: 70px;
+    right: 72px;
+}
+#descMine {
+	top: 80px;
+    right: 60px;
+}
+#descGolden {
+	top: 106px;
+    right: 52px;
+}
+#descSkala {
+	top: 114px;
+    right: 82px;
+}
+#descVillage {
+	top: 120px;
+    right: 52px;
+}
+/* Potos */
+#descGiola {
+	bottom: 6px;
+    right: 104px;
+}
+#descMona {
+	bottom: 14px;
+    right: 80px;
+}
+#descAliki {
+	bottom: 24px;
+    right: 60px;
+}
+#descRome {
+	bottom: 35px;
+    right: 75px;
+}
+#descDeep {
+	bottom: 58px;
+    right: 42px;
+}
+#descSain {
+	bottom: 14px;
+    right: 148px;
+}
+}
+
+@media (max-width: 860px) {
+.calculate-body {
+	position: static;
+	margin: 0 auto;
+}
+.calculate-body h1 {
+	padding: 60px 0;
+	font-size: 50px;
+}
+.input-group, .form-check, .button-group {
+	width: calc(100% - 25px);
+	float: none;
+}
+.form-check {
+	margin: 20px 40px;
+}
+.cruisBody p {
+padding-bottom: 0;
+}
+}
+
+/* Media Queries */
+
+@media (max-width: 780px) {
+.menu {
+	display: block;
+	position: relative;
+}
+#nav {
+	padding: 0px;
+}
+#nav-body {
+	width: 0;
+	margin: 0;
+	height: auto;
+}
+#nav-links {
+	height: 100vh;
+}
+.width-nav {
+	width: 100% !important;
+	height: 1000px !important;
+}
+.top-bar {
+	height: 70px;
+	width: 100%;
+	background: #97bcd9; /* Old browsers */
+	background: -moz-linear-gradient(top, #97bcd9 0%, #a1c3de 57%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #97bcd9 0%, #a1c3de 57%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #97bcd9 0%, #a1c3de 57%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97bcd9', endColorstr='#a1c3de', GradientType=0 ); /* IE6-9 */
+	transition: background-color 200ms linear;
+}
+#logo a {
+	height: 60px;
+	width: 112px;
+	text-indent: 120px;
+	white-space: nowrap;
+	overflow: hidden;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: contain;
+	position: absolute;
+	top: 5px;
+	left: 20px;
+}
+.top-bar .menu {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.top-bar .menu a {
+	color: #fff;
+	font-size: 27px;
+}
+.top-bar a:hover {
+	background-color: transparent;
+}
+/*nav*/
+
+.nav {
+	max-width: 100%;
+	height: auto;
+	background: #97bcd9; /* Old browsers */
+	background: -moz-linear-gradient(top, #97bcd9 0%, #a1c3de 57%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #97bcd9 0%, #a1c3de 57%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #97bcd9 0%, #a1c3de 57%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97bcd9', endColorstr='#a1c3de', GradientType=0 ); /* IE6-9 */
+	transition: background-color 200ms linear;
+	transform: translateX(100%);
+	transition: transform 0.3s ease-in-out;
+	overflow: hidden;
+	float: none;
+	padding: 0px;
+}
+.nav-view {
+	transform: translateX(0);
+}
+#nav a {
+	color: rgba(255, 255, 255, 0.8);
+}
+#nav-links a:hover, #nav-links a:active, #nav-links a.active {
+	color: rgba(255, 255, 255, 1);
+	font-weight: bold;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	background-color: #8fb6d1;
+}
+#nav-links li {
+	float: none;
+	display: block;
+	padding: 0;
+}
+#nav-links li a {
+	padding: 15px 10px;
+	display: block;
+}
+#nav-links li ul {
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	padding: 0px;
+	background: #97bcd9;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	top: 0px;
+	box-shadow: none;
+}
+#nav-links li ul:after {
+	content: '';
+	position: relative;
+	border-style: solid;
+	border-width: 0;
+	border-color: #FFFFFF transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+#nav-links li ul {
+	display: block !important;
+}
+#nav-links li ul li {
+	padding: 10px;
+	width: auto;
+	display: block;
+	line-height: 1.2;
+	text-transform: none;
+	font-size: 15px;
+}
+#nav-links li ul li a {
+	color: #fff;
+}
+#nav-links li ul li a:hover, #nav-links li ul li a:active {
+	color: rgba(255, 255, 255, 1);
+	background-color: transparent;
+}
+#menuBtn:before {
+	color: #fff !important;
+	height: 30px;
+	width: 30px;
+	font-family: FontAwesome;
+	position: absolute;
+	top: 6px;
+	right: 0px;
+	content: "\f0c9";
+	font-size: 25px;
+	color: #999;
+	z-index: 1000;
+}
+#menuBtn.active:before {
+	font-family: FontAwesome;
+	content: "\f00d";
+}
+.cruises-body {
+	width: 100%;
+	margin: 0;
+}
+.cruises-body .col-50 {
+	width: 100%;
+	float: none;
+	margin-top: 40px;
+}
+#limenasBtn {
+	top: -900px;
+	left: 30px;
+	width: calc(100% - 64px);
+	text-align: center;
+}
+#potosBtn {
+	top: -60px;
+	left: 30px;
+	width: calc(100% - 64px);
+	text-align: center;
+}
+.col-40, .col-60 {
+	width: 100%;
+	float: none;
+}
+.col-half {
+	width: 100%;
+}
+.form-check {
+	padding-bottom: 15px;
+}
+#socialLinks li a i {
+	font-size: 18px;
+}
+
+#AboutDesigner-body .col-half {
+	float: none;
+	max-width: 90%;
+}
+#AboutDesigner-body .col-half img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 6%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-left: 4%;
+}
+.cruisBody .col-half {
+	float: none;
+    display: block;
+    width: 90%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.map-body  {
+    width: 522px;
+	height: 466px;
+	margin: 0 auto;
+	position: relative;
+}
+#mapPath-lim, #mapPath-pos  {
+    width: 522px;
+	height: 466px;
+}
+.descLinks {
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 550px;
+	height: 515px;
+}
+.descLinks a {
+	background-image: url(../images/mapMarker.png);
+	background-size: cover;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	padding: 16px;
+}
+.descLinks a:hover {
+	background-image: url(../images/mapMarker-hover.png);
+	width: 45px;
+	height: 45px;
+	padding: 24px;
+	margin-top: -8px;
+	margin-right: -8px;
+}
+.descName {
+	position: absolute;
+	top: 112px;
+	right: 184px;
+	background: #FFFFFF;
+	padding: 10px;
+	margin-right: -12px;
+	margin-top: 45px;
+	background: #FFFFFF;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px #ccc;
+	z-index: 100000;
+	display: none;
+}
+.descName:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0 10px 11px;
+	border-color: #FFFFFF transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	top: -11px;
+	right: 21px;
+}
+/* Limenas */
+#decsMarbel {
+	position: absolute;
+	top: 112px;
+    right: 184px;
+}
+#descMine {
+	position: absolute;
+	top: 138px;
+    right: 158px;
+}
+#descGolden {
+	position: absolute;
+	top: 178px;
+    right: 145px;
+}
+#descSkala {
+	position: absolute;
+	top: 192px;
+    right: 180px;
+}
+#descVillage {
+	position: absolute;
+	top: 212px;
+    right: 144px;
+}
+/* Potos */
+#descGiola {
+	position: absolute;
+	bottom: 70px;
+    right: 236px;
+}
+#descMona {
+	position: absolute;
+	bottom: 86px;
+    right: 206px;
+}
+#descAliki {
+	position: absolute;
+	bottom: 105px;
+    right: 158px;
+}
+#descRome {
+	position: absolute;
+	bottom: 110px;
+    right: 188px;
+}
+#descDeep {
+	position: absolute;
+	bottom: 156px;
+    right: 130px;
+}
+#descSain {
+	position: absolute;
+	bottom: 80px;
+    right: 315px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.cruises-body .desc {
+	bottom: 0;
+}
+.cruisBody table, #resultCalcForm table {
+	color: #999;
+	border-collapse: collapse;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+}
+.cruisBody table thead, #resultCalcForm table thead {
+	border: none;
+	border-bottom: 2px solid #f2f2f2;
+	font: 16px;
+}
+.cruisBody table th, #resultCalcForm table th {
+	text-align: center;
+	border-bottom: none;
+	vertical-align: bottom;
+	padding: 10px;
+	border-top: none;
+	text-transform: uppercase;
+	text-align: left;
+	color: #666;
+	font-weight: 500;
+}
+.cruisBody table td, #resultCalcForm table td {
+	border-bottom: 1px solid #e6e7e8;
+	border-right: none;
+	vertical-align: top;
+	padding: 10px;
+	margin: 10px 0;
+	text-align: center;
+	font-size: 14px;
+	text-align: left;
+	font-weight: 300;
+}
+.cruisBody table tr:nth-child(even), #resultCalcForm table tr:nth-child(even) {
+	background-color: #fbfafa;
+}
+.cruisBody table thead, #resultCalcForm table thead {
+	display: none;
+	margin: 0;
+	padding: 0;
+	height: 0;
+	width: 0;
+}
+.cruisBody table tr, .cruisBody table td, #resultCalcForm table tr, #resultCalcForm table td {
+	display: block;
+	padding: 0 10px;
+	text-align: left;
+	white-space: normal;
+}
+.cruisBody table tr, #resultCalcForm table tr {
+	border-bottom: 1px solid #e6e7e8;
+	padding-bottom: 11px;
+	margin-bottom: 11px;
+}
+.cruisBody table td, #resultCalcForm table td {
+	border: none;
+	margin-bottom: 6px;
+	color: #444;
+}
+.cruisBody table td:empty, #resultCalcForm table td:empty {
+	display: none;
+	height: 0;
+}
+.cruisBody table td:first-child, #resultCalcForm table td:first-child {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 6px;
+	color: #333;
+}
+.cruisBody table td:first-child:before, #resultCalcForm table td:first-child:before {
+	content: '';
+}
+}
+
+@media screen and (max-width: 750px) {
+.cruisBody table, tbody {
+	display: block;
+	width: 100%;
+}
+#scrollToTop {
+	position: absolute;
+	bottom: 100px;
+	right: 20px;
+}
+}
+
+@media (max-width: 560px) {
+#socialLinks {
+	max-width: 180px;
+	margin: 0 auto;
+}
+#socialLinks li a i {
+	font-size: 22px;
+}
+.footer-body .col-40, .footer-body .col-30, .copyright {
+	width: 100%;
+	padding: 5%;
+}
+#calculate {
+	min-height: 100%;
+	height: auto;
+	padding: 80px 0;
+}
+
+}
+
+@media (max-width: 560px) {
+/* Desc Links */
+
+#mapPath-lim, #mapPath-pos  {
+	width: 300px;
+	height: 268px;
+}
+.descLinks {
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 288px;
+    height: 280px;
+}
+
+.map-body {
+    width: 300px;
+	height: 268px;
+    margin: 0 auto;
+    position: relative;
+}
+.descLinks a {
+	background-image: url(../images/mapMarker-small.png);
+	background-size: cover;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	padding: 12px;
+}
+@-webkit-keyframes showLink {
+	20% { padding: 12px; opacity: .6; }
+	40% { padding: 13px; opacity: .8; }
+	100% { padding: 12px; opacity: 1; }
+	}
+.descLinks a:hover {
+	background-image: url(../images/mapMarkerSmall-hover.png);
+	width: 32px;
+	height: 32px;
+	padding: 16px;
+	margin-top: -4px;
+	margin-right: -4px;
+}
+
+/* Limenas */
+#decsMarbel {
+top: 70px;
+right: 72px;
+}
+#descMine {
+top: 80px;
+right: 60px;
+}
+#descGolden {
+top: 106px;
+right: 52px;
+}
+#descSkala {
+top: 114px;
+right: 82px;
+}
+#descVillage {
+top: 120px;
+right: 52px;
+}
+/* Potos */
+#descGiola {
+bottom: 6px;
+right: 104px;
+}
+#descMona {
+bottom: 14px;
+right: 80px;
+}
+#descAliki {
+bottom: 24px;
+right: 60px;
+}
+#descRome {
+bottom: 35px;
+right: 75px;
+}
+#descDeep {
+bottom: 58px;
+right: 42px;
+}
+#descSain {
+bottom: 14px;
+right: 148px;
+}
+}
+
+@media (max-width: 500px) {
+#gal {
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	-moz-column-count: 1; /* Firefox */
+	column-count: 1;
+}
+}
+
+@media (max-width: 330px) {
+	#mapPath-lim, #mapPath-pos {
+		width: 200px;
+		height: 179px;
+		top: 0;
+	}
+	.descLinks {
+		width: 200px;
+		height: 179px;
+	}
+	.map-body {
+		width: 200px;
+		height: 179px;
+		margin: 0 auto;
+		position: relative;
+	}
+	/* Limenas */
+	#decsMarbel {
+		top: 30px;
+		right: 58px;
+	}
+	#descMine {
+	    top: 40px;
+    	right: 50px;
+	}
+	#descGolden {
+	    top: 56px;
+    	right: 40px;
+	}
+	#descSkala {
+		top: 60px;
+		right: 56px;
+	}
+	#descVillage {
+		top: 65px;
+		right: 40px;
+		}
+	/* Potos */
+	#descGiola {
+		bottom: 8px;
+    	right: 68px;
+	}
+	#descMona {
+		bottom: 20px;
+		right: 60px;
+	}
+	#descAliki {
+		bottom: 24px;
+		right: 48px;
+	}
+	#descRome {
+		bottom: 35px;
+		right: 55px;
+	}
+	#descDeep {
+	    bottom: 40px;
+    	right: 36px;
+	}
+	#descSain {
+	    bottom: 12px;
+    	right: 102px;
+	}
+}
